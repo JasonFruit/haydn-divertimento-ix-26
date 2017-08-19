@@ -24,8 +24,8 @@
 }
 
 
-%% the solo part
-solo = \relative c'' {
+%% the solotwo part
+solotwo = \relative c'' {
   \clef alto
   \key c \major
   \time 2/4
@@ -52,7 +52,7 @@ solo = \relative c'' {
 }
 
 %% the upper staff upper voice
-uamusic = \relative c' {
+uamusictwo = \relative c' {
   \clef treble
   \key c \major
   \time 2/4
@@ -74,7 +74,7 @@ uamusic = \relative c' {
 }
 
 %% the upper staff lower voice
-ubmusic = \relative c' {
+ubmusictwo = \relative c' {
   \clef treble
   \key c \major
   \time 2/4
@@ -96,7 +96,7 @@ ubmusic = \relative c' {
 }
 
 %% the lower staff upper voice
-lamusic = \relative c {
+lamusictwo = \relative c {
   \clef bass
   \key c \major
   \time 2/4
@@ -104,7 +104,7 @@ lamusic = \relative c {
 }
 
 %% the lower staff lower voice
-lbmusic = \relative c {
+lbmusictwo = \relative c {
   \clef bass
   \key c \major
   \time 2/4
@@ -137,7 +137,7 @@ lbmusic = \relative c {
 	"Va."
       }
     } {
-      \new Voice = "solo" { \solo }
+      \new Voice = "solotwo" { \solotwo }
     }
     \new PianoStaff \with {
       instrumentName = \markup {
@@ -149,10 +149,10 @@ lbmusic = \relative c {
 	"Pf."
       }
     } <<
-      \new Staff << \new Voice { \uamusic }
-		    \new Voice { \ubmusic } >>
-      \new Staff << \new Voice { \lamusic }
-		    \new Voice { \lbmusic } >>
+      \new Staff << \new Voice { \uamusictwo }
+		    \new Voice { \ubmusictwo } >>
+      \new Staff << \new Voice { \lamusictwo }
+		    \new Voice { \lbmusictwo } >>
     >>
   >>
   \layout {
