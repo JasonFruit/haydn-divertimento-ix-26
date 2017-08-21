@@ -1,32 +1,7 @@
 \version "2.18.2"
 
-#(set-default-paper-size "letter")
-
-\header {
-  title = \markup {
-    \override #'(font-name . "Cormorant Garamond")
-    "DIVERTIMENTO"
-  }
-  subtitle = \markup {
-    \override #'(font-name . "Cormorant Garamond")
-    \override #'(font-size . 1)
-    "(Hob.XI:26)"
-  }
-  composer = \markup {
-    \override #'(font-name . "Cormorant Garamond")
-    \override #'(font-size . 3)
-    "Joseph Haydn"
-  }
-  arranger = \markup {
-    \override #'(font-name . "Cormorant Garamond")
-    "arr. Jason Fruit"
-  }
-  tagline = ##f
-}
-
-
-%% the solo part
-solo = \relative c'' {
+%% the soloone part
+soloone = \relative c'' {
   \clef treble
   \key g \major
   \time 3/8
@@ -54,7 +29,7 @@ solo = \relative c'' {
 }
 
 %% the upper staff upper voice
-uamusic = \relative c'' {
+uamusicone = \relative c'' {
   \clef treble
   \key g \major
   \time 3/8
@@ -77,7 +52,7 @@ uamusic = \relative c'' {
 }
 
 %% the upper staff lower voice
-ubmusic = \relative c'' {
+ubmusicone = \relative c'' {
   \clef treble
   \key g \major
   \time 3/8
@@ -94,7 +69,7 @@ ubmusic = \relative c'' {
 }
 
 %% the lower staff upper voice
-lamusic = \relative c' {
+lamusicone = \relative c' {
   \clef bass
   \key g \major
   \time 3/8
@@ -103,7 +78,7 @@ lamusic = \relative c' {
 }
 
 %% the lower staff lower voice
-lbmusic = \relative c' {
+lbmusicone = \relative c' {
   \clef bass
   \key g \major
   \time 3/8
@@ -121,40 +96,4 @@ lbmusic = \relative c' {
     c,4 d8 g4 r8 c,4 d8 g4 r8 bes( a bes) a4 r8 g8( fis g) fis4 r8 bes8( a bes) a4 r8 g8( fis g) fis4 r8 b,! b b
     b b b c c c d d d g,4 r8 g'4 r8 c,8 c c d d d g4 r8 c,4 d8 g4 r8 c,4 d8 g g, g g4 r8
   }
-}
-
-\score {
-  <<
-    \new Staff \with {
-      instrumentName = \markup {
-	\override #'(font-name . "Cormorant Garamond")
-	"Viola"
-      }
-      shortInstrumentName = \markup {
-	\override #'(font-name . "Cormorant Garamond")
-	"Va."
-      }
-    } {
-      \new Voice = "solo" { \solo }
-    }
-    \new PianoStaff \with {
-      instrumentName = \markup {
-	\override #'(font-name . "Cormorant Garamond")
-	"Piano"
-      }
-      shortInstrumentName = \markup {
-	\override #'(font-name . "Cormorant Garamond")
-	"Pf."
-      }
-    } <<
-      \new Staff << \new Voice { \uamusic }
-		    \new Voice { \ubmusic } >>
-      \new Staff << \new Voice { \lamusic }
-		    \new Voice { \lbmusic } >>
-    >>
-  >>
-  \layout {
-    \context { \Staff \RemoveEmptyStaves }
-  }
-  \midi { }
 }

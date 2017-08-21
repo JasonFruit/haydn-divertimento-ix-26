@@ -1,29 +1,5 @@
 \version "2.18.2"
 
-#(set-default-paper-size "letter")
-
-\header {
-  title = \markup {
-    \override #'(font-name . "Cormorant Garamond")
-    "DIVERTIMENTO"
-  }
-  Subtitle = \markup {
-    \override #'(font-name . "Cormorant Garamond")
-    "MENUETTO"
-  }
-  composer = \markup {
-    \override #'(font-name . "Cormorant Garamond")
-    \override #'(font-size . 3)
-    "Joseph Haydn"
-  }
-  arranger = \markup {
-    \override #'(font-name . "Cormorant Garamond")
-    "arr. Jason Fruit"
-  }
-  tagline = ##f
-}
-
-
 %% the solothree part
 solothree = \relative c'' {
   \clef alto
@@ -106,40 +82,4 @@ lbmusicthree = \relative c' {
   \key g \minor
   r4 g bes d2.~ d4 c a bes2.~ bes4 a fis g2 es'4 c d d g d g,
   r4 bes d es2.~ es4 c e f2.~ f4 d fis g2.~ g4 bes g d'2.~ d4 c a bes2.~ bes4 a fis g2 es4 c d d g d g,
-}
-
-\score {
-  <<
-    \new Staff \with {
-      instrumentName = \markup {
-	\override #'(font-name . "Cormorant Garamond")
-	"Viola"
-      }
-      shortInstrumentName = \markup {
-	\override #'(font-name . "Cormorant Garamond")
-	"Va."
-      }
-    } {
-      \new Voice = "solothree" { \solothree }
-    }
-    \new PianoStaff \with {
-      instrumentName = \markup {
-	\override #'(font-name . "Cormorant Garamond")
-	"Piano"
-      }
-      shortInstrumentName = \markup {
-	\override #'(font-name . "Cormorant Garamond")
-	"Pf."
-      }
-    } <<
-      \new Staff << \new Voice { \uamusicthree }
-		    \new Voice { \ubmusicthree } >>
-      \new Staff << \new Voice { \lamusicthree }
-		    \new Voice { \lbmusicthree } >>
-    >>
-  >>
-  \layout {
-    \context { \Staff \RemoveEmptyStaves }
-  }
-  \midi { }
 }
