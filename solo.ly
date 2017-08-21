@@ -24,6 +24,12 @@
   tagline = ##f
 }
 
+\paper { 
+  systems-per-page = #10
+  page-breaking = #ly:page-turn-breaking
+  % ragged-last-bottom = ##f
+} 
+
 \include "presto-assai.ly"
 \include "andante.ly"
 \include "menuetto.ly"
@@ -41,7 +47,7 @@
     }
     shortInstrumentName = \markup {
       \override #'(font-name . "Cormorant Garamond")
-      "Va."
+      ""
     }
   } {
     \new Voice = "soloone" { \soloone }
@@ -61,7 +67,7 @@
     }
     shortInstrumentName = \markup {
       \override #'(font-name . "Cormorant Garamond")
-      "Va."
+      ""
     }
   } {
     \new Voice = "solotwo" { \solotwo }
@@ -70,8 +76,10 @@
 
 \score {
   \header {
-    piece = \markup {
-      " "
+     piece = \markup {
+      \override #'(font-name . "Cormorant Garamond")
+      \override #'(font-size . 3)
+      "Menuetto"
     }
   }
   \new Staff \with {
@@ -81,7 +89,7 @@
     }
     shortInstrumentName = \markup {
       \override #'(font-name . "Cormorant Garamond")
-      "Va."
+      ""
     }
   } {
     \new Voice = "solothree" { \solothree }

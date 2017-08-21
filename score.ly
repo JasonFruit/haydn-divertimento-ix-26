@@ -24,6 +24,12 @@
   tagline = ##f
 }
 
+\paper { 
+  % systems-per-page = #3
+  % page-breaking = #ly:page-turn-breaking
+  % ragged-last-bottom = ##f
+} 
+
 \include "presto-assai.ly"
 \include "andante.ly"
 \include "menuetto.ly"

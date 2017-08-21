@@ -8,7 +8,7 @@ solothree = \relative c'' {
   \tempo \markup {
     \override #'(font-name . "Cormorant Garamond")
     \override #'(font-size . 3)
-    "Menuetto"
+    "Allegretto"
   }
   \repeat volta 2 {
     g4 g8 fis g a b4 g d'8 b g4 d b' g2 \clef treble g'4 fis8 g a fis g4 \clef alto a,8 b c a b c d4 c b \grace b( << a2. d,)>>
