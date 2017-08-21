@@ -37,15 +37,15 @@ uamusictwo = \relative c' {
   <<d, b>> <<c e>> r <<c g'>> g4 g g r g8 g <<g d b>> <<b e g>> <<a e a,>> <<a' e a,>> <<a' d, a>> <<a' d, a>>
   <<b d g>> <<g d b>> g' g <<g d a>> <<a d g>> <<fis d a>> <<a d fis>> g8 g <<g d b>> <<b e g>> <<a e a,>> <<a' e a,>> <<a' d, a>> <<a' d, a>> g'8 g g16 e fis g
   a8 a g16 b a g g8 g g16 e fis g a8 a g16 b a g g8 g <<g b,>> <<fis' a,>> <<g'4 b,>> r
-  r8 <<es bes>> <<es bes>> <<es bes>> a'2 r8 <<d, a>> <<d a>> <<d a>> g'2~ g8 <<g es c g>> <<g' es c a>> <<g' es c a>> <<g' d a>> <<g' d a>> <<fis' d a>> r
-  g'8 g g16 e fis g a8 a g16 b a g g8 g g16 e fis g a8 a g16 b a g
+  r8 <<es\p bes>> <<es bes>> <<es bes>> a'2 r8 <<d, a>> <<d a>> <<d a>> g'2~ g8 <<g es c g>> <<g' es c a>> <<g' es c a>> <<g' d a>> <<g' d a>> <<fis' d a>> r
+  g'8\f g g16 e fis g a8 a g16 b a g g8 g g16 e fis g a8 a g16 b a g
   g8 g <<g b,>> <<fis' a,>> <<g'4 b,>> r r8 g'4 <<g8 e>> <<fis a,>> <<b g'>> r <<g d'>> c c16 b <<a8 d,>> <<fis a>>
   <<a4 fis>> <<g8 b>> r r <<e, c>> f a <<d, b>> <<c e>> r8 g~ g4. g8 g4 c8 a <<g4 d>> g
   \grace g8 f4 r8 <<d8 a>> e'4. <<a8 cis,>> <<d4 f a>> r8 <<a d,>> g4 f16 d e f <<g8 e g,>> <<c g'>> r <<g c,>>
   f16 d e f a8 a a g r16 d e f e8 g16 f <<e8 c>> <<e a>> <<a d,>> <<a' d,>> <<g d>> <<g d>> <<g e c>> <<c e g>> <<c f, c>> <<c f a>>
   <<g d c>> <<c d g>> <<g d b>> <<b d g>> c, c <<c g>> <<a c>> <<d a>> <<d a>> <<g d'>> <<g, d'>> <<e g,>> <<c4 c'>> <<c8 f, c>> <<d g b>> <<d8 g,~ d>> <<e g c>> <<g c>>
-  r4 c16 a b c d b c d <<c e,>> <<g e'>> <<d f,>> <<e c'>> c8 d~ d16 c8 b16 <<c4 e,>> r r8 <<aes, es'>> <<aes, es'>> <<aes, es'>>
-  r <<aes, d>> <<g, d'>> <<g, d'>> r8 <<g, c e!>> <<g, c e>> <<g, c e>> r8 <<f, c' f>> <<f, c' f>> <<g e c>> <<aes' f c>> <<aes' f c>> <<aes' d, c>> <<aes' d, c>> <<g' d c>> <<g' d c>> <<g'16 d b!>> d <<e c>> <<f b,>> <<c8 e>> <<c4 c'>> <<c8 f, c>>
+  r4 c16 a b c d b c d <<c e,>> <<g e'>> <<d f,>> <<e c'>> c8 d~ d16 c8 b16 <<c4 e,>> r r8 <<aes,\p es'>> <<aes, es'>> <<aes, es'>>
+  r <<aes, d>> <<g, d'>> <<g, d'>> r8 <<g, c e!>> <<g, c e>> <<g, c e>> r8 <<f, c' f>> <<f, c' f>> <<g e c>> <<aes' f c>> <<aes' f c>> <<aes' d, c>> <<aes' d, c>> <<g' d c>> <<g' d c>> <<g'16 d b!>> d <<e c>> <<f b,>> <<c8\f e>> <<c4 c'>> <<c8 f, c>>
   <<d g b>> <<d8 g,~ d>> <<e g c>> <<g c>> r4 c16 a b c d b c d <<c e,>> <<g e'>> <<d f,>> <<e c'>> c8 d~ d16 c8 b16 <<c4 e,>> r
 }
 
@@ -88,15 +88,15 @@ lbmusictwo = \relative c {
     r8 c a' f g c, r e d d16 c b8 g c g c, r r c' a' f g c, r e f e b c
     g g'16 fis g d b d g,8 b'16 a g8 g fis fis fis fis g g, e' c d d, d'16 c b a g8 b'16 a g8 g fis fis fis fis
     g8 b c e, fis d g b g b c e, fis d g b, c e d d
-    g, g' g, r r g'\p g g r fis fis fis r f! f f r es es d c c c c d d, d'16 c b! a
-    g8\f b' c e, fis d g b g b c e, fis d g b, c e d d, g g' g, r
+    g, g' g, r r g' g g r fis fis fis r f! f f r es es d c c c c d d, d'16 c b! a
+    g8 b' c e, fis d g b g b c e, fis d g b, c e d d, g g' g, r
   }
   \repeat volta 2 {
     r8 g e' c d g, r b' a a16 g fis8 d g d g, r r c a' f! g c, r e d d16 c b8 g
     c c, a'' f g g16 f e8 c f f, r f' e e16 d cis8 a d4 r8 f g b r g,
     c e r e f4 r8 fis g4 g16 f! e d c8 e16 d c8 c b b b b c c a' f g g, g' f
     <<e g>> <<e16 g>> <<f d>> <<c8 e>> <<c e>> b b b b c e f a g b c e c, e f a g b c e,
-    f a g g, c g c, r r c'\p c c r b b b r bes bes bes r aes aes g f f' f f g g, g'16 f e! d
-    c8\f e f a g b, c e c e f a g b, c e f a g g, c g c, r
+    f a g g, c g c, r r c' c c r b b b r bes bes bes r aes aes g f f' f f g g, g'16 f e! d
+    c8 e f a g b, c e c e f a g b, c e f a g g, c g c, r
   }
 }
