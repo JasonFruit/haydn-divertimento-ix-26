@@ -11,19 +11,19 @@ solotwo = \relative c'' {
     "Andante"
   }
   \repeat volta 2 {
-    g4 f16( e) d( c) \tuplet 3/2 { b( c d) } c8 g8. c16 c8( b16) c d d( e f) f4( e16) g, c e g4 f16( e) d( c) \tuplet 3/2 {b( c d)} c8 g8. c16 \tuplet 3/2 {b( c d)} c8 \tuplet 3/2 {d16( e f)} e8
-    e8-+ d r4 d e16( d c b) a8. b16 c8 r b4 \grace d16( c8) b16 a g4( fis8) r d'4 e16( d c b) a8. b16 c8 r
+    g4 f16( e) d( c) \tuplet 3/2 { b( c d) } c8 g8.\upbow c16\upbow c8( b16) c d-. d( e f) f4( e16) g, c e g4 f16( e) d( c) \tuplet 3/2 {b( c d)} c8 g8.\upbow c16\upbow \tuplet 3/2 {b( c d)} c8 \tuplet 3/2 {d16( e f)} e8
+    e8-+ d r4 d e16( d c b) a8.( b16) c8 r b4 \grace d16( c8) b16 a g4( fis8) r d'4 e16( d c b) a8. b16 c8 r
     \tuplet 3/2 {b16( c d)} d-. d-. \tuplet 3/2 {e( fis g)} g-. g-. \tuplet 3/2 {a,16( b c)} c-. c-. \tuplet 3/2 {b( a g)} g-. g-. \tuplet 3/2 {b( c d)} d-. d-. \tuplet 3/2 {e( fis g)} g-. g-. \tuplet 3/2 {a,( b c)} c-. c-. \tuplet 3/2 {b( c d)} d-. d-. \tuplet 3/2 {e( d c)} \tuplet 3/2 {b( a g)} a4-+
-    g4 r8 d'\p es4 g16( es) d( cis) cis4( d8) r d8.( es32 f) es16( d) c( b) b4( c8) d es8. d16 c bes a g g4( fis8) r
+    g4 r8 d'\upbow\p es4 g16( es) d( cis) cis4( d8) r d8.( es32 f) es16( d) c( b) b4( c8) d\upbow es8. d16 c( bes) a( g) g4( fis8) r
     \tuplet 3/2 {b!16\f( c d)} d-. d-. \tuplet 3/2 {e( fis g)} g-. g-. \tuplet 3/2 {a,( b c)} c-. c-. \tuplet 3/2 {b( a g)} g-. g-. \tuplet 3/2 {b!16( c d)} d-. d-. \tuplet 3/2 {e( fis g)} g-. g-. \tuplet 3/2 {a,( b c)} c-. c-. \tuplet 3/2 {b( c d)} d-. d-. \tuplet 3/2 {e( d c)} \tuplet 3/2 {b( a g)} a4-+ g r
   }
   \repeat volta 2 {
-    d'4 c16( b) a( g) \tuplet 3/2 {fis( g a)} g8 d8. g16 g8( fis16) g a-. a( b c) c4( b8) g g'4 f!16( e) d( c) \tuplet 3/2 {b( c d)} c8 g8. c16 c8( b16) c d-. d( e f)
-    \grace f8( e4) c8. f16 f8( e16) f g-. g( a bes) \grace bes8( a4) a,8. a'16 \grace a8( g4) a,8. g'16 \tuplet 3/2 {f( e d)} a'-. a-. \tuplet 3/2 {a( g f)} \tuplet 3/2 {e( d c)} \tuplet 3/2 {b( c d)} d-. d-. \tuplet 3/2 {d( e f)} f-. f-.
-    \tuplet 3/2 {e( d c)} g'-. g-. \tuplet 3/2 {g( f e)} \tuplet 3/2 {d( c bes)} a a' a a \tuplet 3/2 {a( g f)} \tuplet 3/2 {e( d c)} \tuplet 3/2 {b( a g)} g8 r4 g' a16( g f e) d8. e16 f8 r e4 \grace g16( f8) e16 d c4( b8) r
-    g4 a16( g f e) d8. e16 f8 r \tuplet 3/2 {e16( f g)} g-. g-. \tuplet 3/2 {a( b c)} c-. c-. \tuplet 3/2 {b( c d)} \tuplet 3/2 {d( e f)} \tuplet 3/2 {e( d c)} c-. c-. \tuplet 3/2 {e,16( f g)} g-. g-. \tuplet 3/2 {a( b c)} c-. c-. \tuplet 3/2 {b( c d)} \tuplet 3/2 {d( e f)} \tuplet 3/2 {e( f g)} g-. g-.
-    \tuplet 3/2 {a( g f)} \tuplet 3/2 {e( d c)} d4-+ c r8 g'\p aes4~ aes16( g) g( fis) fis4( g8) r g4~ g16( f!) f( e) e4( f8) g aes8. g16 f es d c c4( b8) r
-    \tuplet 3/2 {e,16\f( f g)} g-. g-. \tuplet 3/2 {a( b c)} c-. c-. \tuplet 3/2 {b( c d)} \tuplet 3/2 {d( e f)} \tuplet 3/2 {e( d c)} c-. c-. \tuplet 3/2 {e,16( f g)} g-. g-. \tuplet 3/2 {a( b c)} c-. c-. \tuplet 3/2 {b( c d)} \tuplet 3/2 {d( e f)} \tuplet 3/2 {e( f g)} g-. g-. \tuplet 3/2 {a( g f)} \tuplet 3/2 {e( d c)} d4-+ c r
+    d'4 c16( b) a( g) \tuplet 3/2 {fis( g a)} g8 d8.\upbow g16\upbow g8( fis16) g a-. a( b c) c4( b8) g g'4 f!16( e) d( c) \tuplet 3/2 {b( c d)} c8 g8.\upbow c16\upbow c8( b16) c d-. d( e f)
+    \grace f8( e4) c8.\upbow f16\upbow f8( e16) f g-. g( a bes) \grace bes8( a4) a,8.\upbow a'16\upbow \grace a8( g4) a,8.\upbow g'16\upbow \tuplet 3/2 {f( e d)} a'-. a-. \tuplet 3/2 {a( g f)} \tuplet 3/2 {e( d c)} \tuplet 3/2 {b( c d)} d-. d-. \tuplet 3/2 {d( e f)} f-. f-.
+    \tuplet 3/2 {e( d c)} g'-. g-. \tuplet 3/2 {g( f e)} \tuplet 3/2 {d( c bes)} a a' a a \tuplet 3/2 {a( g f)} \tuplet 3/2 {e( d c)} \tuplet 3/2 {b( a g)} g8 r4 g' a16( g f e) d8.( e16) f8 r e4 \grace g16( f8) e16 d c4( b8) r
+    g4 a16( g f e) d8.( e16) f8 r \tuplet 3/2 {e16( f g)} g-. g-. \tuplet 3/2 {a( b c)} c-. c-. \tuplet 3/2 {b( c d)} \tuplet 3/2 {d( e f)} \tuplet 3/2 {e( d c)} c-.\upbow c-.\upbow \tuplet 3/2 {e,16( f g)} g-. g-. \tuplet 3/2 {a( b c)} c-. c-. \tuplet 3/2 {b( c d)} \tuplet 3/2 {d( e f)} \tuplet 3/2 {e( f g)} g-.\upbow g-.\upbow
+    \tuplet 3/2 {a( g f)} \tuplet 3/2 {e( d c)} d4-+ c r8 g'\upbow\p aes4~ aes16( g) g( fis) fis4( g8) r g4~ g16( f!) f( e) e4( f8) g\upbow aes8. g16 f( es) d( c) c4( b8) r
+    \tuplet 3/2 {\once \override Script.padding = #1.5 e,16\downbow\f( f g)} g-. g-. \tuplet 3/2 {a( b c)} c-. c-. \tuplet 3/2 {b( c d)} \tuplet 3/2 {d( e f)} \tuplet 3/2 {e( d c)} c-.\upbow c-.\upbow \tuplet 3/2 {e,16( f g)} g-. g-. \tuplet 3/2 {a( b c)} c-. c-. \tuplet 3/2 {b( c d)} \tuplet 3/2 {d( e f)} \tuplet 3/2 {e( f g)} g-.\upbow g-.\upbow \tuplet 3/2 {a( g f)} \tuplet 3/2 {e( d c)} d4-+ c r
   }
 }
 

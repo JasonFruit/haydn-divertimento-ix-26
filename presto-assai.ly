@@ -11,20 +11,20 @@ soloone = \relative c'' {
     "Presto Assai"
   }
   \repeat volta 2 {
-    d8 b g g'4. e8 c g g'4. d8 b g c4. b8 c d c b a g4 r8 r c c c4( b8) r e e
+    d8 b g g'4. e8 c g g'4. d8 b g c4. b8 c d c b a g4 r8 r c\upbow c\upbow c4( b8) r e e
     e4( d8) r c c c4( b8) r e e e4( d8) \clef alto d c b <<{b4( a8)} d,4.>> d8 fis16 e d8 d4 r8 e g16 fis e8 e g16 fis e8 fis8 fis16 g a8 fis fis16 g a8
-    b4. g fis8 d \clef treble d' e g16 e d cis d8 d, d' e g16 e d cis d4 \clef alto a,8 d( cis d) cis4 a8 f'( e f) e4 \clef treble a8 d( cis d) cis4 a8
-    f'8( e f) e4 a,8 <<d8 d,>> fis16 e d8 d4 r8 \clef alto e g16 fis e8 e g16 fis e8 fis fis16 g a8 fis fis16 g a8 b4. g fis8 d \clef treble d' e g16 e d cis d8 d, d'
-    e g16 e d cis d8 <<d fis,>> <<a fis'>> <<d4 fis,>> r8
+    b4. g fis8 d \clef treble d' e g16 e d cis d8 d, d' e g16 e d cis d4 \clef alto a,8 d( cis d) cis4 a8\upbow f'( e f) e4 \clef treble a8\upbow d( cis d) cis4 a8\upbow
+    f'8( e f) e4 a,8\upbow <<d8 d,>> fis16 e d8 d4 r8 \clef alto e\downbow g16 fis e8 e g16 fis e8 fis fis16 g a8 fis fis16 g a8 b4. g fis8 d \clef treble d' e g16 e d cis d8 d, d'
+    e g16 e d cis d8 <<d\upbow fis,>> <<a\upbow fis'>> <<d4 fis,>> r8
   }
   \repeat volta 2 {
-    a fis d d'4. b8 g d d'4. a8 d fis g4. fis8 d d \grace fis16( e8) d cis d4 r8 r d d d4( cis8)
-    r8 c! c c4( b8) r8 e e e4( dis8) fis8 a, a a4( g8) e'8 g, g g4( fis8) e'4.~ e~ e~ e~ e~
-    e~ e8 g16 fis e8 c e16 d c8 b g fis \clef alto e8 g16 fis e8 c e16 d c8 b g fis e4 r8 r b'' b b4( c8) r8 a a a4( b8) \clef treble d b g g'4.
-    e8 c g g'4. d8 b g c4. b8 c d c b a g4 r8 r \clef alto c, c c4( b8) r e e e4( d8) r c c c4( b8)
-    r e e e4( d8) d c b b4( a8) \clef treble <<g8 g'>> b16 a g8 g4 r8 a8 c16 b a8 a c16 b a8 b b16 c d8 b b16 c d8 e4. c b8 g g' e d16 c b a b8 g g'
-    e d16 c b a g4 r8 d'16\upbow d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d'4 d,8 g b16 a g8
-    g4 r8 a8 c16 b a8 a8 c16 b a8 b b16 c d8 b b16 c d8 e4. c b8 g g' e d16 c b a b8 g g' e d16 c b a g8 <<g b,>> <<b' d,>> <<b4 g'>> r8
+    a fis d d'4. b8 g d d'4. a8 d fis g4. fis8 d d \grace fis16( e8) d cis d4 r8 r d\upbow d\upbow d4( cis8)
+    r8 c! c c4( b8) r8 e e e4( dis8) fis8 a,\downbow a\upbow a4( g8) e'8\upbow g, g g4( fis8) e'4.\upbow~ e~ e\downbow~ e~ e~
+    e~ e8 g16 fis e8 c e16 d c8 b g\upbow fis\upbow \clef alto e8 g16 fis e8 c e16 d c8 b g\upbow fis\upbow e4 r8 r b''\upbow b\upbow b4( c8) r8 a\upbow a\downbow a4\upbow( b8) \clef treble d b g g'4.
+    e8 c g g'4. d8 b g c4. b8 c d c b a g4 r8 r \clef alto c,\upbow c\upbow c4( b8) r e\upbow e\upbow e4( d8) r c\upbow c\upbow c4( b8)
+    r e\upbow e\upbow e4( d8) d c b b4( a8) \clef treble <<g8\upbow g'>> b16( a) g8 g4 r8 a8\downbow c16 b a8 a c16 b a8 b b16 c d8 b b16 c d8 e4. c b8 g g' e d16 c b a b8 g g'
+    e d16 c b a g4 r8 d'16\upbow d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d' d, d'4\upbow d,8\upbow g b16 a g8
+    g4 r8 a8\downbow c16 b a8 a8 c16 b a8 b b16 c d8 b b16 c d8 e4. c b8 g g' e d16 c b a b8 g g' e d16 c b a g8 <<g\upbow b,>> <<b'\upbow d,>> <<b4 g'>> r8
   }
 }
 

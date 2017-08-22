@@ -11,11 +11,11 @@ solothree = \relative c'' {
     "Allegretto"
   }
   \repeat volta 2 {
-    g4 g8 fis g a b4 g d'8 b g4 d b' g2 \clef treble g'4 fis8 g a fis g4 \clef alto a,8 b c a b c d4 c b \grace b( << a2. d,)>>
+    g4 g8( fis) g a b4 g d'8 b g4 d\upbow b'\upbow g2 \clef treble g'4 fis8 g a fis g4 \clef alto a,8( b) c a b c d4 c\upbow b\upbow \grace b( << a2. d,)>>
   }
   \repeat volta 2 {
-    d4 fis8 e fis g a2 c,4 b8 c d e fis g a2 c,4 \grace c8( b4) a8 g b cis d4 d c \grace c8( b4) a8 g b cis d4 r r
-    g4 g8 fis g a b4 g d'8 b g4 d b' g2 \clef treble g'4 fis8 g a fis g4 \clef alto a,8 b c a b4 \grace b8( a4) g fis g r r
+    d4\downbow fis8( e) fis g a2 c,4 b8 c d e fis g a2 c,4 \grace c8( b4) a8 g b cis d4 d c \grace c8( b4) a8 g b cis d4 r r
+    g4 g8( fis) g a b4 g d'8 b g4 d\upbow b'\upbow g2 \clef treble g'4 fis8 g a fis g4 \clef alto a,8 b c a b4 \grace b8( a4) g\upbow fis\upbow g r r
   }
   \break
   \tempo \markup {
@@ -25,10 +25,10 @@ solothree = \relative c'' {
   }
   \key g \minor
   \repeat volta 2 {
-    g2.~ g4 fis d es!2.~ es4 d bes c2.~ c4 bes g \grace bes8( a4) g fis g r r
+    g2.\downbow~ g4 fis d es!2.~ es4 d bes c2.~ c4 bes g \grace bes8( a4) g fis g r r
   }
   \repeat volta 2 {
-    bes2.~ bes4 g b c2.~ c4 a cis d2.~ d4 bes d g2.~ g4 fis d es2.~ es4 d bes c2.~ c4 bes g \grace bes8( a4) g fis g\mark \markup { \override #'(font-name . "Cormorant Garamond") \override #'(font-size . 3) "D.C."} r r
+    bes2.\downbow~ bes4 g b c2.~ c4 a cis d2.~ d4 bes d g2.~ g4 fis d es2.~ es4 d bes c2.~ c4 bes g \grace bes8( a4) g\upbow fis\upbow g\mark \markup { \override #'(font-name . "Cormorant Garamond") \override #'(font-size . 3) "D.C."} r r
   }
 }
 
