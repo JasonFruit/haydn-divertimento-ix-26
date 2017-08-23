@@ -12,7 +12,7 @@ solotwo = \relative c'' {
   }
   \repeat volta 2 {
     g4 f16( e) d( c) \tuplet 3/2 { b( c d) } c8 g8.\upbow c16\upbow c8( b16) c d-. d( e f) f4( e16) g, c e g4 f16( e) d( c) \tuplet 3/2 {b( c d)} c8 g8.\upbow c16\upbow \tuplet 3/2 {b( c d)} c8 \tuplet 3/2 {d16( e f)} e8
-    e8-+ d r4 d e16( d c b) a8.( b16) c8 r b4 \grace d16( c8) b16 a g4( fis8) r d'4 e16( d c b) a8. b16 c8 r
+    e8-+ d r4 d e16( d c b) a8.( b16) c8 r b4 \grace d16( c8) b16 a g4( fis8) r d'4\downbow e16( d c b) a8.( b16) c8 r
     \tuplet 3/2 {b16( c d)} d-. d-. \tuplet 3/2 {e( fis g)} g-. g-. \tuplet 3/2 {a,16( b c)} c-. c-. \tuplet 3/2 {b( a g)} g-. g-. \tuplet 3/2 {b( c d)} d-. d-. \tuplet 3/2 {e( fis g)} g-. g-. \tuplet 3/2 {a,( b c)} c-. c-. \tuplet 3/2 {b( c d)} d-. d-. \tuplet 3/2 {e( d c)} \tuplet 3/2 {b( a g)} a4-+
     g4 r8 d'\upbow\p es4 g16( es) d( cis) cis4( d8) r d8.( es32 f) es16( d) c( b) b4( c8) d\upbow es8. d16 c( bes) a( g) g4( fis8) r
     \tuplet 3/2 {b!16\f( c d)} d-. d-. \tuplet 3/2 {e( fis g)} g-. g-. \tuplet 3/2 {a,( b c)} c-. c-. \tuplet 3/2 {b( a g)} g-. g-. \tuplet 3/2 {b!16( c d)} d-. d-. \tuplet 3/2 {e( fis g)} g-. g-. \tuplet 3/2 {a,( b c)} c-. c-. \tuplet 3/2 {b( c d)} d-. d-. \tuplet 3/2 {e( d c)} \tuplet 3/2 {b( a g)} a4-+ g r
